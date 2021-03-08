@@ -1,0 +1,3 @@
+builder-env
+*.json
+__pycache__
