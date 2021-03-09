@@ -55,7 +55,7 @@ def dumpVideos(count, channel, settings):
             break
         else:
             lastDate = channel.Videos[index]['contentDetails']['videoPublishedAt']
-            time.sleep(0.5)
+            time.sleep(0.4)
     if lastDate != "":
         channel.LastUploadDate = parse(lastDate)
 
