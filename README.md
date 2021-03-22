@@ -1,4 +1,4 @@
-# Youtube Playlist Builder
+# YouTube Playlist Builder
 Simple application that grabs unwatched youtube videos from specified channels and adds them to a specified playlist. This makes it easier to keep track of all the videos you need to watch by consolidating everything into one playlist. This saves the time of manually adding each video by hand.
 
 ## Initial Setup
