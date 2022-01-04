@@ -20,6 +20,7 @@ import time
 def BuildPlaylist(channels,settings):
     videoCount = countVideos(channels)
     n = min(settings.MaxVideos,videoCount)
+    print(f'Video Count: {n} / {settings.MaxVideos}');
     for c in channels:
         nVids = len(c.Videos)
         count = min(n,nVids)
