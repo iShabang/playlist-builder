@@ -39,7 +39,6 @@ def dumpVideos(count, channel, settings):
     end = len(channel.Videos) - 1
     for i in range(count):
         index = end - i
-        print(f'index={index}')
         data = getJson(channel,channel.Videos[index],settings)
         query = {'part':'snippet', 'key':settings.APIKey}
         headers = {
