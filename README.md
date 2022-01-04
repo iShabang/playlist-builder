@@ -8,6 +8,7 @@ You must start a project on the google developer console to obtain a valid API k
 
 ### Virtual Environment (optional)
     python -m venv builder-env
+    builder-env/Scripts/activate (run the correct script for your platform)
 
 ### Install Dependencies
     pip install -r requirements.txt
